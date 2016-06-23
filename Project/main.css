@@ -1,0 +1,89 @@
+
+.top-panel{
+    width:100%;
+    position: fixed;
+    height: 17%;
+    border-bottom-width: 2px; 
+    border-bottom-style:groove; 
+    border-bottom-color: white;
+}
+.search{
+    float:left;
+  font-size: 25px;
+    width:400px;
+    height: 100px;
+    padding-top:25px;
+    font-family: serif;
+    margin-left: -420px;
+    position: fixed;
+    background-color: dimgray;
+    border-radius: 8px;
+}
+.search-name-book{
+    width:300px;
+    height:49px;
+    float: left;
+  
+    background-color: gainsboro;
+    border-radius: 8px;
+}
+.search-button{
+    width:60px;
+    height:50px;
+    float:right;
+    border: none;
+    
+    margin-right: 40px;
+    outline-style: none;
+    background-color: transparent;
+}
+input {outline:none;}
+
+#signIn{
+    position: fixed;
+    background-color:burlywood;
+    width:300px;
+    height: 120px;
+    margin-left: -80px;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 50px;
+    display: inline-block;
+}
+#login{
+    border-radius: 2px;
+    width:200px;
+    height:50px;
+}
+#password{
+    border-radius: 2px;
+     width:200px;
+    height:50px;
+}
+#sova1{
+ float: left;
+    margin-left:-110px;
+    display: inline-block;
+    margin-top: -5px;
+}
+
+#right-panel{
+    position: fixed;
+    width:500px;
+    height:120px;
+    float: right;
+margin-top: -100px;
+    margin-left: 1280px;
+}
+#left-panel{
+position: fixed;
+   
+    margin-top: -90px;
+    border-radius: 8px;
+     
+}
+#sova2{
+   
+    margin-left: -100px;
+    margin-top:-49px;
+}
