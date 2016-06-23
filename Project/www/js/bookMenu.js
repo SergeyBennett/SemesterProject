@@ -1,19 +1,17 @@
-var $bookMenu = $('#book-menu');
+var $bookMenu = $('.main');
 
 var booksFiltered = [];
 
+var $BookTemplate=$("<div class='book-wrapper'><div class='book-container'><div class='book-main-part'><img class='book-icon' src=''><span class='book-title'>Назва:title</span><span class='book-genre'>Жанр:gener</span></div><span class='book-review'>rev</span></div></div>");
+
 function showBooks(list = all_books, filter = '') {
     $bookMenu.html('');
-    require('Templates.ejs');
 
-    function addBook(book) {
-        var html_code = new EJS({url: 'Template/BookTemplate.ejs'}).render();
+    function addBook() {
 
-        var $node = $(html_code);
-
-        $node.find(".buy-big").click(function () {
-            PizzaCart.addToCart(pizza, PizzaCart.PizzaSize.Big);
-        });
+        var $node = $($BookTemplate).clone();
+        
+        alert($node.html());
 
         $bookMenu.append($node);
     }
