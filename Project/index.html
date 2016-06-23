@@ -1,46 +1,49 @@
 <html>
-    <head>
-        <title>
-            Bookstuff
-        </title>
-        <meta charset="utf-8">
+
+<head>
+    <title>
+        Bookstuff
+    </title>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="main.css">
-        <link rel="SHORTCUT ICON" href="http://search.cpan.org/src/PLAVEN/Padre-1.00/share/icons/padre/16x16/actions/42-b.png" type="image/x-icon">
-         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="SHORTCUT ICON" href="http://search.cpan.org/src/PLAVEN/Padre-1.00/share/icons/padre/16x16/actions/42-b.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <style>
-        body{
-            background:url(img/images.jpg);
-                 background-repeat:no-repeat;
+        body {
+            background: url(img/images.jpg);
+            background-repeat: no-repeat;
             background-size: 100%;
         }
-        </style>
-    </head>
-    <body>
-        <div class="top-panel">
-            
-            <div class="IMG" style="margin-left:470px">
-                <img src="img/img_fonts.png">
+    </style>
+</head>
+
+<body>
+    <div class="top-panel">
+
+        <div class="IMG" style="margin-left:470px">
+            <img src="assets/img/img_fonts.png">
+        </div>
+        <div id="right-panel" onmouseover="zakladka1()" onmouseout="zakladka2()">
+            <img src="assets/img/zakladka1.png" id="sova1">
+            <div id="signIn">
+                <input type="text" placeholder="Login" id="login">
+                <input type="password" placeholder="Password" id="password">
             </div>
-            <div id="right-panel" onmouseover="zakladka1()" onmouseout="zakladka2()">
-           <img src="img/zakladka1.png" id="sova1">
-        <div id="signIn">
-           <input type="text" placeholder="Login" id="login">
-            <input type="password" placeholder="Password" id="password">
-            </div>
-         </div>
-            <div id="left-panel" onmouseover="zakladka3()" onmouseout="zakladka4()">
+        </div>
+        <div id="left-panel" onmouseover="zakladka3()" onmouseout="zakladka4()">
             <div class="search">
-                <input type="text" placeholder="Name of book" class="search-name-book"> 
-            <button type="button" class="search-button" >
-                <img src="img/search.jpg"  class="lupa">
+                <input type="text" placeholder="Name of book" class="search-name-book">
+                <button type="button" class="search-button">
+                    <img src="assets/img/search.jpg" class="lupa">
                 </button>
             </div>
-            <img src="img/zakladka2.png" id="sova2">
+            <img src="assets/img/zakladka2.png" id="sova2">
         </div>
-        
-        
+
+
         <div class="main">
         </div>
-            <script type="text/javascript" src="main.js"></script>
-    </body>
+        <script type="text/javascript" src="main.js"></script>
+</body>
+
 </html>
