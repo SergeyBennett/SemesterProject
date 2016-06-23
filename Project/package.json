@@ -1,0 +1,20 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "No desc",
+  "main": "index.js",
+  "dependencies": {
+    "basil.js": "^0.4.3",
+    "ejs": "^2.4.2",
+    "brfs": "^1.4.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-browserify": "^4.0.1",
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "alala"
+  },
+  "author": "Ya",
+  "license": "ISC"
+}

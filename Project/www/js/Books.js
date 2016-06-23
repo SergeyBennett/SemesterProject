@@ -19,5 +19,3 @@ var all_books = [
 
     }
 ];
-
-module.exports = all_books;

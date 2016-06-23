@@ -38,52 +38,95 @@
     background-color: transparent;
 }
 input {outline:none;}
-
+#left-panel{
+    background-color: black;
+    transition: margin-left 2s;
+    width: 5px;
+}
+#left-panel:hover{
+    margin-left: 280px;
+}
 #signIn{
     position: fixed;
-    background-color:burlywood;
+background-image:linear-gradient(#8B8682, #4682B4);
     width:300px;
-    height: 120px;
-    margin-left: -80px;
+    height:190px;
     border-radius: 8px;
-    padding-top: 10px;
-    padding-left: 50px;
-    display: inline-block;
+    padding-left: 45px;
+    padding-top: 40px;
+    margin-top: -130px;
+    margin-left: -290px;
 }
 #login{
     border-radius: 2px;
     width:200px;
-    height:50px;
+    height:30px;
+    border-radius: 20px;
+    font-family: serif;
+    margin-bottom: 25px;
 }
 #password{
     border-radius: 2px;
      width:200px;
-    height:50px;
+    height:30px;
+     border-radius: 20px;
+   
 }
+#sova2{
+    cursor: pointer;
+    margin-left:-90px;
+    margin-top: -142px;
+transition: margin-left 2s;
+}
+
+
 #sova1{
- float: left;
-    margin-left:-110px;
-    display: inline-block;
-    margin-top: -5px;
+margin-left:1230px;
+margin-top: -130px;
+    cursor: pointer;
+    transition: margin-left 2s;
 }
 
 #right-panel{
     position: fixed;
-    width:500px;
-    height:120px;
-    float: right;
-margin-top: -100px;
-    margin-left: 1280px;
-}
-#left-panel{
-position: fixed;
-   
-    margin-top: -90px;
+    background-color: beige;
     border-radius: 8px;
-     
+    width:350px;
+    height:100px;
+    margin-left: 1300px;
+    margin-top: -130px;
+    padding-top: 28px;        
+    padding-left: 28px;
+    transition:margin-left 2s;
 }
-#sova2{
+
+#search-text{
+    height:50px;
+    width:250px;
+    font-family: serif;
+    font-size: 20px;
+    border-radius: 25px;
+}
+#button-search{
+    background-color: transparent;
+    border: none;
    
-    margin-left: -100px;
-    margin-top:-49px;
+}
+#lupa{
+     margin-top: -10px;
+}
+.IMG{
+
+    width:370px;
+    text-align: center;
+}
+#zakladka-right{
+    position: fixed;
+    transition: margin-left 2s;
+}
+#zakladka-right:hover{
+    margin-left: -350px;
+}
+.btn{
+    margin:12px;
 }
